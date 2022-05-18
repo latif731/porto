@@ -1,0 +1,43 @@
+.skill_wrapper {
+    background: #132347;
+    padding: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    overflow-y:scroll;
+    height: 195px;
+}
+
+.skill_bar{
+    width: 93%;
+    position: relative;
+    background: #fff;
+    z-index: 999;
+    height: 5px;
+    border-radius: 50px;
+}
+
+.skill_bar-percentage{
+    background: #7865ff !important;
+    height: 5px;
+    position: absolute;
+    z-index: 1000;
+    top: 0;
+    left: left;
+}
+
+.skill_title span{
+    color: #fff;
+}
+
+.skill_title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+
+.persen{
+    margin:0 50px;
+}

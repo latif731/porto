@@ -1,0 +1,39 @@
+.single_info-box{
+    background: #132347;
+    padding: 20px;
+    border-radius: 5px;
+    border-bottom: 1px solid #7865ff;
+    margin-bottom: 25px;
+    font-weight: 300;
+    margin-top: 10px;
+    font-size: 0.9rem;
+    margin-bottom: 20px;
+    width: 600px;
+}
+
+.single_info-box h6{
+    font-size: 1.1rem;
+}
+
+.vvvv {
+    margin-top: 11100px 0;
+}
+
+.bbbb {
+    display: flex;
+    justify-content: space-between;
+}
+
+.single_info-box4 {
+    background: #132347;
+    padding: 20px;
+    border-radius: 5px;
+    border-bottom: 1px solid #7865ff;
+    margin-bottom: 25px;
+    height: 95%;
+    width: 40%;
+}
+
+.map{
+    border-radius: 5px;
+}

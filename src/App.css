@@ -1,0 +1,103 @@
+#text_div {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  margin: 10px;
+}
+
+.center_all {
+  /* position: absolute; */
+  top: 370%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  /* color: white; */
+}
+
+/* .header {
+  width: 100%;
+  height: 70px;
+  line-height: 70px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+} */
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Rubik:wght@300;400;500;600&display=swap');
+
+
+
+ /* base style */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body{
+   background: #0E1B31 !important; 
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  color: #fff;
+  font-family: "Lato", sans-serif;
+  margin: 0
+}
+
+h1, h2{
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+p{
+  color: #fff;
+  opacity: 75%;
+  font-size: 1rem;
+  font-family: "Rubik", sans-serif;
+}
+
+ul{
+  list-style: none;
+  margin: 0;
+}
+
+a{
+  color: unset;
+  font-family: "Lato", sans-serif;
+  text-decoration: none !important;
+}
+
+a:hover{
+  color: unset;
+}
+
+section {
+  margin: 100px  0;
+}
+
+section, footer {
+  padding: 60px 0px;
+}
+
+/* custom scroll */
+::-webkit-scrollbar {
+  width: 10px;
+  background: #c1ceff;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 2em;
+  background: #282f4e;
+}
+

@@ -1,0 +1,19 @@
+.portfolio_top{
+    color: #7865ff;
+    margin-bottom: 15px;
+}
+
+.portfolio_card{
+    position: relative;
+    z-index: 90;
+}
+
+.portfolio_content{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(rgb(0, 13, 107, 0.6), rgb(0, 13, 107, 0.6));
+    z-index: 91;
+}

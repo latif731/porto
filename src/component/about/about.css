@@ -1,0 +1,66 @@
+.latifabout{
+    width: 170px;
+    border-radius: 10px;
+}
+
+.about_content_wrapper{
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.about_btns {
+    background: #102048;
+    border-radius: 10px;
+}
+
+.about_btn{
+    width: 100%;
+    padding: 20px;
+    color: #fff;
+    background: transparent;
+    border-bottom: 1px solid #7865ff !important;
+    border-radius: 5px 0px 0px 0px;
+    border: none;
+    outline: none;
+}
+
+.about_btn-active{
+    background: #7865ff;
+}
+
+.about_btn:last-child {
+    border-bottom: 0;
+    border-radius: 0px 0px 5px 5px;
+}
+
+.about_content_wrapper{
+    background: #132347;
+    padding: 20px;
+    height: 196px;
+    border-radius: 10px;
+}
+
+.about_content h2{
+    margin-bottom: 15px;
+}
+
+.about_content p {
+    line-height: 25px;
+    font-weight: 300;
+}
+
+.link{
+    color: #7865ff;
+}
+
+.social_link span{
+    margin-top: 10px;
+    margin-right: 15px;
+}
+
+.about_content {
+    margin: 0 20px;
+}
+
