@@ -37,6 +37,15 @@
 }
 
 .cerimg:hover {
-    transform: scale(2.9);
+    transform: scale(5.0);
     z-index: 2;
 }
+
+/* .box {
+    background: #132347;
+    padding: 20px;
+    border-radius: 0px;
+    overflow: hidden;
+    overflow-x:scroll;
+    height: 500px;
+} */

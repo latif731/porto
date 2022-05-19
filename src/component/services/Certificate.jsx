@@ -7,6 +7,7 @@ import CER3 from '../../asset/image/theater.jpg'
 import CER4 from '../../asset/image/pala.jpg'
 import CER5 from '../../asset/image/pala2.jpg'
 import CER6 from '../../asset/image/foo.jpg'
+import CER7 from '../../asset/image/1.png'
 
 
 const certificateData = [
@@ -40,6 +41,12 @@ const certificateData = [
         title: `${CER6}`,
         desc: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam blanditiis vel doloribus exercitationem quisquam'
     },
+    {
+        icon: 'ri-code-line',
+        title: `${CER7}`,
+        desc: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam blanditiis vel doloribus exercitationem quisquam'
+    },
+
 
 ]
 
