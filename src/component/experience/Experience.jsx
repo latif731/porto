@@ -23,7 +23,8 @@ const developmentExp = [
 const Experience = () => {
   return (
     <section id="Experience">
-        <Container>
+        <Container data-aos="fade-up"
+     data-aos-anchor-placement="center-bottom">
             <Row>
                 <Col lg='12' className="mb-5">
                     <h2>Experience</h2>

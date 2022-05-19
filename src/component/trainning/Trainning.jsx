@@ -6,7 +6,9 @@ import './trainning.css'
 const Trainning = () => {
   return (
     <section id="Experience">
-    <Container>
+    <Container data-aos="fade-down"
+     data-aos-easing="linear"
+     data-aos-duration="1500">
         <Row>
             <Col lg='12' className="mb-5">
                 <h2>Trainning</h2>

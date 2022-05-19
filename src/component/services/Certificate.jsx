@@ -54,14 +54,14 @@ const certificateData = [
 const Certificate = () => {
   return (
     <section id="certificate">
-        <Container>
+        <Container data-aos="flip-down">
             <Row>
                 <Col lg='12' className="service_top mb-4">
                     <h2>My Certificate</h2>
                 </Col>
                 {
                     certificateData.map((item, index) => (
-                <Col className="mb-4 box" key={index}>
+                <Col className="mb-4 box" key={index} >
                     <div className="single_service">
                         <span className="service_icon">
                         </span>

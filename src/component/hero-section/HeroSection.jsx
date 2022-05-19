@@ -16,25 +16,27 @@ const HeroSection = () => {
                     <div className="hero_content">
                         {/* <p className='mb-3'>Welcome to my website!</p> */}
                         {/* <h5 className='mb-4'>Hi</h5> */}
-                        <h1 className='hero_title mb-4'>
+                        <h1 className='hero_title mb-4' data-aos="zoom-in-up">
                         <span style={{ color: 'red', fontWeight: 'bold' }}>
           {/* Style will be inherited from the parent element */}
             Assalamualaikum wr. wb.
         </span>
                        </h1>
-                        <h2>
+                        <h2 data-aos="zoom-in-up">
                             Perkenalkan nama saya Latif Budi Pamungkas saya berusia 26 tahun, dengan beberapa pengalaman dan skill yang saya miliki saya berharap mampu memberikan kontribusi 
                             lebih untuk pelayanan yang sempurna. 
                         </h2>
 
                         <div className="mt-5 hero_btns d-flex align-items-center gap-4">
-                            <button className='btn hire_btn'><a href={CV} download>Hire Me</a></button>
+                            <button className='btn hire_btn' data-aos="fade-right"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine"><a href={CV} download>Hire Me</a></button>
                             {/* <button className='btn'>Contact</button> */}
                         </div>
                     </div>
                 </Col>
 
-                <Col lg='6' md='6'>
+                <Col lg='6' md='6' data-aos="zoom-in">
                     <div className="hero_img">
                         <img src={heroimg} alt="" className='latif w-100'/>
                     </div>
